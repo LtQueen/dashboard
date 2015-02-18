@@ -1,0 +1,283 @@
+/* General Style */
+html,body {font-family:'Roboto',arial,sans-serif;font-size:13px;height:100%;margin:0;padding:0px;color:#333;background:#edecec;}
+div {margin:0;padding:0;}
+a {	text-decoration:none;}
+a img {border:none; text-decoration:none;}
+ul,
+ol {list-style: none; padding:0;}
+h3 {font-size:18px;}
+table {border-spacing:0;}
+
+.container {width:980px;margin:auto;}
+
+.google,
+.twitter,
+.youtube{width:395px;/*margin:auto;*/height:auto;}
+
+#googleList,
+#twList,
+#youtubeList,
+#topmost {background:#fff;box-shadow:0 1px 2px rgba(0,0,0,0.24);margin-bottom:30px;}
+
+/* Google Trending List Style */
+.google h3,.youtube h3 {padding:24px 24px 0;margin:0;}
+.google h3 span,.youtube h3 span{float:right; color:#787878;font-size:13px;line-height:14px;text-align:start;}
+
+.landing-page-hottrends-single-trend-container {
+	border-bottom:1px solid #dcdddf;
+	clear:both;
+	line-height:87px;
+	margin:0 24px;
+	text-align:left;
+}
+
+.landing-page-hottrends-single-trend-container.last {
+	border-bottom:none;
+	padding-bottom:11px;
+}
+
+.hottrends-single-trend-image-container {
+	display:inline-block;
+	height:90px;
+	vertical-align:middle;
+	width:54px;
+	position:relative;
+}
+
+.hottrends-single-trend-image-container img {
+	display:inline-block;
+	margin:auto;
+	vertical-align:middle;
+	width:54px;
+	position:absolute;
+	top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+}
+
+.landing-page-hottrends-single-trend-info-container {
+	display:inline-block;
+	height:54px;
+	line-height:15px;
+	margin-left:14px;
+	margin-top:-13px;
+	vertical-align:middle;
+	max-width:279px;
+}
+.landing-page-hottrends-single-trend-container a,
+.landing-page-hottrends-single-trend-container a:visited,
+.landing-page-hottrends-single-trend-container a:hover {
+	display:inline-block;
+	line-height:19px;
+	vertical-align:middle;
+}
+
+.landing-page-hottrends-single-trend-container a, 
+.landing-page-hottrends-single-trend-container a:visited {
+	color:#333!important;
+}
+
+.hottrends-single-trend-title {
+	color:#333;
+	display: inline-block;
+	font-size:18px;
+	line-height: normal;
+	margin-bottom: 0;
+	margin-right:10px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	vertical-align: middle;
+	white-space: nowrap;
+	width:100%;
+}
+
+.landing-page-hottrends-single-trend-info {
+	margin-top: 5px
+}
+
+.hotness-scale {
+	display:inline-block;
+	margin-right:10px;
+	width:50px;
+	background:#eaeaea;
+}
+
+.hotness-scale-bar {
+	display: inline-block;
+	height:10px;
+	width:10px;
+}
+
+.hottrends-single-trend-info-line-number {
+	font-weight: bold;
+}
+
+.landing-page-hottrends-image-source-container {
+	font-size:9px;
+	margin-top:3px;
+}
+
+.landing-page-hottrends-image-source-container, 
+.landing-page-hottrends-image-source-text {
+	color:#797979;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	vertical-align: middle;
+	white-space:nowrap;
+}
+
+/* Twitter Trending List Style */
+#twList {padding:15px;border-radius:5px;font-family:Arial,sans-serif;}
+.trend-item{font-size:13px;line-height:20px;}
+#twList li {overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+#twList a,
+#twList a:focus,
+#twList a:active{color:#9443A8}
+
+.landing-page-hottrends-single-video-container {
+	border-bottom:1px solid #dcdddf;
+	clear:both;
+	height:56px;
+	line-height:initial;
+	margin:0 24px;
+	padding:17px 0 17px 0;
+	text-align:left;
+}
+
+.single-video-image-container {
+	float:left;
+	height:54px;
+	margin-top:2px;
+	width:75px;
+}
+
+.single-video-image {
+	background-size:75px 54px;
+	display:block;
+	height:54px;
+	width:75px;
+}
+
+.single-video-length-container {
+	display:block;
+	line-height:12px;
+	margin-top:-16px;
+	text-align:right;
+}
+
+.single-video-length {
+	background-color:rgba(0,0,0,1);
+	color:#fff;
+	font-size:11px;
+	font-weight:bold;
+	padding:2px 4px;
+}
+
+.landing-page-hottrends-single-video-info-container {
+	line-height:normal;
+	margin-left:89px;
+	margin-right:10px;
+	vertical-align:middle;
+}
+
+.single-hot-video-daily-view-number {
+	font-weight:bold;
+}
+
+.landing-page-hottrends-single-video-info {
+	margin-left:-6px;
+	margin-top:1px;
+	padding-bottom:8px;
+}
+
+.landing-page-single-video-bottom-line {
+	font-size:9px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	width:100%;
+}
+
+.landing-page-single-video-username-text {
+	color:#797979;
+	display:inline;
+	font-size:9px;
+	margin-top:1px;
+}
+
+.single-video-title {
+	color:#222;
+	line-height:21px;
+}
+
+.single-video-title,
+.single-video-title:hover {
+	display:block;
+	font-size:18px;
+	margin-right:0;
+	margin-top:-2px;
+	max-width:inherit;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+
+.daily-views-arrow {
+	display:inline-block;
+	position:relative;
+	top:6px;
+}
+
+.daily-views-arrow.arrow_up {
+	background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOC4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMTQgMTQiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDE0IDE0IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnIGlkPSJYTUxJRF8yMzlfIj4NCgk8cG9seWdvbiBmaWxsPSIjMDA5MzQ1IiBwb2ludHM9IjIsOS4yIDcsNC4yIDEyLDkuMiAJIi8+DQo8L2c+DQo8L3N2Zz4NCg==);
+	background-position-y:-3.5px;
+	background-repeat:no-repeat;
+	height:14px;
+	margin-left:4px;
+	margin-right:4px;
+	width:14px;
+}
+
+.landing-page-single-video-username-text>a:link, .landing-page-single-video-username-text>a:visited {
+	color:#333;
+	font-size:9px;
+	margin-top:1px;
+}
+
+.landing-page-single-video-username-text>a:hover {
+	color:#1155cc!important;
+	display:inline;
+}
+
+/* Top Most Shared */
+.topmost {
+	font-family:"Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:15px;
+	line-height:1.5;\
+	color:#2c3e50;
+}
+.topmost table {
+	width:100%;
+	margin-bottom:20px;
+	border:1px solid #ecf0f1;
+}
+.topmost table thead{
+	font-size:1.2em;
+	white-space:nowrap;
+} 
+.topmost table>thead>tr>th, 
+.topmost table>tbody>tr>th, 
+.topmost table>tfoot>tr>th, 
+.topmost table>thead>tr>td, 
+.topmost table>tbody>tr>td, 
+.topmost table>tfoot>tr>td {
+	border:1px solid #ecf0f1
+}
+.topmost table>thead>tr>td,
+.topmost table>thead>tr>th {
+	border-bottom-width:2px;
+}
+.topmost table > thead:first-child > tr:first-child > td {
+	border:0;
+}
